@@ -17,6 +17,7 @@ export const addSchool = async (req, res) => {
         );
         return apiResponse(res, 201, true, "School added successfully", { id: result.insertId });
     } catch (e) {
+        console.error("MySQL Insert Error:", e);  // <--- ADD THIS
         throw new apiError(500, "Database Error", e.message);
     }
 };
