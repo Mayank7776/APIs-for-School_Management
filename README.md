@@ -75,3 +75,9 @@ A Postman collection is included in the repository for easy testing.
 It contains:
 
 Example requests for /addSchool and /listSchool
+
+Live API Endpoints (for testing):
+
+POST /addSchool: https://school-api-production.up.railway.app/addSchool
+
+GET /listSchools: https://school-api-production.up.railway.app/listSchools?latitude=28.7041&longitude=77.1025
