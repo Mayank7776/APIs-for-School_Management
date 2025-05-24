@@ -78,6 +78,6 @@ Example requests for /addSchool and /listSchool
 
 Live API Endpoints (for testing):
 
-POST /addSchool: https://school-api-production.up.railway.app/addSchool
+POST /addSchool: https://apis-for-school-management-e5jh.onrender.com/addSchool
 
-GET /listSchools: https://school-api-production.up.railway.app/listSchools?latitude=28.7041&longitude=77.1025
+GET /listSchools: https://apis-for-school-management-e5jh.onrender.com/listSchool?latitude=23.34333&longitude=12.34424
